@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "HankenGrotesk";
+    src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+        font-family: "HankenGroteskmed";
+        src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+}
+
+.left-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: HankenGrotesk;
+    border-radius: 30px;
+    color: white;
+    width: 330px;
+    background-image: linear-gradient(#6843FF,#302CEA);
+}
+
+.your-result {
+    font-weight: bold;
+    color: #D3CFFB;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ 
+ 
+}
+
+.circle {
+    display: flex;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6843FF;
+    border-radius: 200px;
+    height: 180px;
+    width: 180px;
+    background-image: linear-gradient(#4F24CA,#4634EF);
+    margin: auto;
+}
+
+.seventy-six {
+    font-weight: bold;
+    font-size: 70px;
+    height: 85px;
+}
+
+.of-100 {
+    font-family: HankenGroteskmed;
+    color: #8779FF;
+
+}
+
+.great {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.you-scored-higher {
+    font-family: HankenGroteskmed;
+    color: #ADB2F2;
+    width: 220px;
+    margin: 10px auto 50px
+}
+
+
+.right-panel {
+    flex: 1;
+    width: 330px;
+    font-family: HankenGrotesk;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+.summary {
+    font-weight: bold;
+    font-size: 20px;
+    color: #303B59;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.rectangle-1 {
+    background-color: #FFF6F6;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.img1 {
+    margin-left: 15px;
+}
+
+.reaction {
+    font-weight: bold;
+    color: #FF5555;
+    margin-left: 10px;
+    margin-right: 82px;
+}
+
+.rectangle-2 {
+    background-color: #FFFBF2;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.memory {
+    font-weight: bold;
+    color: #FFB21E;
+    margin-left: 10px;
+    margin-right: 85px;
+
+}
+
+.img2 {
+    margin-left: 15px;
+} 
+
+.rectangle-3 {
+    background-color: #F3FAFA;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.verbal {
+    font-weight: bold;
+    color: #00BB8F;
+    margin-left: 10px;
+    margin-right: 98px;
+
+}
+
+.img3 {
+    margin-left: 15px;
+}
+
+.rectangle-4 {
+    background-color: #F2F3FD;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.visual {
+    font-weight: bold;
+    color: #1125D6;
+    margin-left: 10px;
+    margin-right: 102px;
+
+}
+
+.img4 {
+    margin-left: 15px;
+}
+
+.continue-button {
+    background-image: linear-gradient(#6843FF,#302CEA);
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    justify-content: center;  
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.rnum1 {
+    color: #303B59;
+    font-weight: bolder;
+    padding-right: 8px;
+}
+
+.rnum2 {
+    color: #99979A;
+    font-weight: bolder;
+    padding-right: 5px;
+
+}
+
+.rnum3 {
+    color: #99979A;
+    font-weight: bolder;
+}
+
+
+.all {  
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    box-shadow: #EEF1FD 9px 9px 25px 6px;}
+
+* {
+    display: flex;
+}
